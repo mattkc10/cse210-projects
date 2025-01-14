@@ -8,6 +8,6 @@ class Program
 
         Console.WriteLine("What is your favorite color?")
         string color = Console.ReadLine();
-        Console.Write(color);
+        Console.Write($" Your favorite color is {color}");
     }
 }
