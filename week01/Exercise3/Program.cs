@@ -15,23 +15,22 @@ class Program
 
         int guess = -1;
 
-        while (guess != answer)
-        {   
+        // We could also use a do-while loop here...
+        while (answer != guess)
+        {
             Console.Write("What is your guess? ");
             guess = int.Parse(Console.ReadLine());
 
-            if (guess > answer)
+            if (answer > guess)
             {
-                Console.WriteLine("Too high. Guess again.");
+                Console.WriteLine("Higher");
             }
-        
-            else if (guess < answer)
+            else if (answer < guess)
             {
-                Console.WriteLine("Too low. Guess again");
+                Console.WriteLine("Lower");
             }
-
-            else (guess == answer) 
-            { 
+            else
+            {
                 Console.WriteLine("You guessed it!");
             }
         }
