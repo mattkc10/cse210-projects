@@ -14,7 +14,7 @@ class Program
         {
             Console.Write("What number would you like to add to the list? (0 when finished) ");
             string userResponse = Console.ReadLine();
-            newNumber = int.Parse(userResponse)
+            newNumber = int.Parse(userResponse);
 
             if (newNumber != 0)
             {
