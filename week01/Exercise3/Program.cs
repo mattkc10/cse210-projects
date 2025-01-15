@@ -13,7 +13,6 @@ class Program
 
         int guess = -1;
 
-        // We could also use a do-while loop here...
         while (magicNumber != guess)
         {
             Console.Write("What is your guess? ");
