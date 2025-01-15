@@ -6,8 +6,10 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise1 Project.");
 
-        Console.WriteLine("What is your favorite color?")
-        string color = Console.ReadLine();
-        Console.Write($" Your favorite color is {color}");
+        Console.WriteLine("What is your favorite first name?");
+        string first = Console.ReadLine();
+        Console.WriteLine("What is your favorite last name?");
+        string last = Console.ReadLine();
+        Console.Write($" Your name is {first} {last}");
     }
 }
