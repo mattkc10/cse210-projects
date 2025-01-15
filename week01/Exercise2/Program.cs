@@ -4,35 +4,33 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter your GPA as a whole number.");
+        Console.WriteLine("Enter your GPA %.");
         string gradeFromUser = Console.ReadLine();
 
-        int x = int.Parse(gradeFromUser);
+        int percent = int.Parse(gradeFromUser);
+       
+        string letterGrade = "";
 
-        if (x > 90)
+
+        if (percent > 90)
         {
-            Console.WriteLine("This is an A or higher!");
-            Console.WriteLine("Great job! You are passing!");
+            letterGrade = "A";
         }
-        else if (x > 79 && x < 90)
+        else if (percent > 79 && x < 90)
         {
-            Console.WriteLine("This is an B grade!");
-            Console.WriteLine("Great job! You are passing!");
+            letterGrade = "B";
         }
-        else if (x > 69 && x < 80)
+        else if (percent > 69 && x < 80)
         {
-            Console.WriteLine("This is at a C.");
-            Console.WriteLine("Great job! You are passing!");
+            letterGrade = "C";
         }
-        else if (x > 60 && x < 70)
+        else if (percent > 60 && x < 70)
         {
-            Console.WriteLine("This is a D grade.");
-            Console.WriteLine("You do not have a passing grade. Work hard, you can do it!");
+            letterGrade = "D";
         }
-        else if (x < 60)
+        else if (percent < 60)
         {
-            Console.WriteLine("This is a F grade.");
-            Console.WriteLine("You do not have a passing grade. Work hard, you can do it!");
+            letterGrade = "F";
         }
     }
 }
