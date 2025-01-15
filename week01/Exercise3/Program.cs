@@ -16,14 +16,21 @@ class Program
         int guess = int.Parse(guessGiven);
 
         while (guess != answer)
-        {   if (guess > answer)
+        {   
+            if (guess > answer)
             {
-                Console.WriteLine("Too high");
+                Console.WriteLine("Too high. Guess again.");
+                string guessGiven = Console.ReadLine();
+
+                int guess = int.Parse(guessGiven);
             }
         
             if (guess < answer)
             {
-                Console.WriteLine("Too low");
+                Console.WriteLine("Too low. Guess again");
+                string guessGiven = Console.ReadLine();
+
+                int guess = int.Parse(guessGiven);
             }
 
             if (guess == answer) 
