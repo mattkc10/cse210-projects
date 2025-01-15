@@ -27,10 +27,10 @@ class Program
             sum += number;
         }
 
-        Console.WriteLine($"The sum of all your numbers is {sum}");
+        Console.WriteLine($"The sum of all your numbers is {sum}.");
 
         float average = ((float)sum) / numbers.Count;
-        Console.WriteLine($"The average of your numbers is {average}");
+        Console.WriteLine($"The average of your numbers is {average}.");
 
         int max = numbers[0];
 
@@ -42,6 +42,6 @@ class Program
             }
         }
 
-        Console.Write($"And the highest number is {max}");
+        Console.Write($"And the highest number is {max}.");
     }
 }
