@@ -20,7 +20,7 @@ class Program
     
     static string combineNames(string first, string last)
     {
-        return first + "" + last;
+        return first + " " + last;
     }
 
     static double GetSquareRoot(double number)
@@ -29,7 +29,7 @@ class Program
     }
 
     Console.WriteLine("Welcome to the program!");
-    Console.WriteLine($"{fullName}  The square root of your number is: " + result); 
+    Console.WriteLine($"{fullName} The square root of your number is: " + result); 
     }
     
 
