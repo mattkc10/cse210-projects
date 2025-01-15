@@ -4,10 +4,6 @@ class Program
 {
     static void Main()
     {
-        static void Message(string[] args)
-        {
-            Console.WriteLine("Welcome to the program!");    
-        }
 
     Console.WriteLine("What is your first name?");
     string first = Console.ReadLine();
@@ -22,7 +18,6 @@ class Program
     double result = GetSquareRoot(number); 
     
     
-    
     static string combineNames(string first, string last)
     {
         return first + "" + last;
@@ -33,9 +28,8 @@ class Program
         return Math.Sqrt(number);
     }
 
-    Console.WriteLine(Message);
-    Console.WriteLine(fullName);
-    Console.WriteLine("The square root of " + number + " is: " + result); 
+    Console.WriteLine("Welcome to the program!");
+    Console.WriteLine($"{fullName} The square root of " + number + " is: " + result); 
     }
     
 
