@@ -2,14 +2,14 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
-    
+    static void Main()
+    {
         static void Message(string[] args)
         {
             Console.WriteLine("Welcome to the program!");    
         }
 
-        static void Name(string first, string last)
+        static string fullName(string first, string last)
         {
             Console.WriteLine("What is your first name?");
             string first = Console.ReadLine();
