@@ -29,7 +29,7 @@ class Program
     }
 
     Console.WriteLine("Welcome to the program!");
-    Console.WriteLine($"{fullName} The square root of " + number + " is: " + result); 
+    Console.WriteLine($"{fullName}  The square root of your number is: " + result); 
     }
     
 
