@@ -9,27 +9,27 @@ class Program
 
         int x = int.Parse(gradeFromUser);
 
-        if (x < 90)
+        if (x > 90)
         {
             Console.WriteLine("This is an A or higher!");
             Console.WriteLine("Great job! You are passing!");
         }
-        else if (x < 79 && x > 90)
+        else if (x > 79 && x < 90)
         {
             Console.WriteLine("This is an B grade!");
             Console.WriteLine("Great job! You are passing!");
         }
-        else if (x < 69 && x > 80)
+        else if (x > 69 && x < 80)
         {
             Console.WriteLine("This is at a C.");
             Console.WriteLine("Great job! You are passing!");
         }
-        else if (x < 60 && x > 70)
+        else if (x > 60 && x < 70)
         {
             Console.WriteLine("This is a D grade.");
             Console.WriteLine("You do not have a passing grade. Work hard, you can do it!");
         }
-        else if (x > 60)
+        else if (x < 60)
         {
             Console.WriteLine("This is a F grade.");
             Console.WriteLine("You do not have a passing grade. Work hard, you can do it!");
