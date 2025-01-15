@@ -16,15 +16,15 @@ class Program
         {
             letterGrade = "A";
         }
-        else if (percent > 79 && x < 90)
+        else if (percent > 79 && percent < 90)
         {
             letterGrade = "B";
         }
-        else if (percent > 69 && x < 80)
+        else if (percent > 69 && percent < 80)
         {
             letterGrade = "C";
         }
-        else if (percent > 60 && x < 70)
+        else if (percent > 60 && percent < 70)
         {
             letterGrade = "D";
         }
