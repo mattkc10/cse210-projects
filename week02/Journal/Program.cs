@@ -1,9 +1,12 @@
 using System;
+using System.IO;
+using System.Text.Json
 
-class Program
+public class JournalEntry
 {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World! This is the Journal Project.");
-    }
+    public string _prompt;
+    public string _journalEntryText;
+    public DateTime _journaltime;
+
+    
 }
